@@ -1,0 +1,16 @@
+{
+  "name": "napaxtime",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Napaxtime — daily planning, special events, and progress tracking",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "start": "npx serve . -p 3000",
+    "build": "node scripts/build.mjs",
+    "preview": "npm run build && npx serve dist -p 4173"
+  }
+}
